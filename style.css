@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5;
+  }
+  
+  /* INDEX */
+  
+  section img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .gal video {
+    width: 350px;
+    height: 350px;
+  }
+  
+  h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 5rem;
+  }
+  
+  div p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  nav ul li {
+    font-size: 1.8rem;
+    margin: 7px 6px 7px 6px;
+    border: #6129a6 solid 2px;
+    background-color: #e8ecf5;
+    display: inline-block;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: purple;
+  }
+  header {
+    background-color: #671b94;
+    background-image: linear-gradient();
+  }
+  
+  body {
+    background-color: #bf84e0;
+  }
+  
+  footer {
+    background-color: #671b94;
+  }
+  
+  .redescolor2 {
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .redescolor a {
+    text-decoration: none;
+    color: purple;
+    font-size: 2.2rem;
+    border: #17052e solid 2px;
+    background-color: #e8ecf5;
+    margin: 7px 6px 15px 6px;
+  }
+  
+  .redescolor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .gal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .mapa {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+  
+  /* GALERÍA */
+  
+  .container__gal img{
+    width: 440px;
+    height: 530px;
+  }
+  
+  .container__gal{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 6px;
+    justify-items: center;
+  }
+  
+  /* PRESUPUESTOS */
+  
+  .formu img{
+    width: 610px;
+    height: 700px;
+  }
+  
+  /* SERVICIOS */
+  
+  .tit h1{
+    color: rgb(109, 6, 226);
+    text-align: center;
+    font-size: 5rem;
+    text-decoration: underline;
+  }
+  
+  ul li h2{
+    text-decoration-line: underline;
+  }
+  
+  /* VENTA DE PRODUCTOS */
+  
+  .produc{
+    font-family: 'Questrial', sans-serif;
+    text-decoration: underline;
+  }
+  
+  table td{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+  }
+  
+  table{
+    border-collapse: collapse;
+        border: 3px solid black;
+        letter-spacing: 1px;
+        font-size: 2.5rem;
+  }
+  
+  caption{
+    padding: 10px;
+  }
+  
+  td, th {
+    border: 2px solid black;
+    padding: 10px 15px 25px 30px;
+  }
+  
+  @media only screen and (max-width: 576px){
+  
+    /* INDEX */
+  
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .gal {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    .mapa {
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+    /* GALERÍA */
+    
+    .container__gal {
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: repeat(12,1fr);
+    }
+  
+    /* SERVICIOS */
+  
+    .tit h1 {
+      font-size: 2.7rem;
+    }
+  
+    main ul {
+      display: flex;
+      flex-direction: column;
+    }
+  
+  /* PRESUPUESTOS */
+  
+  .formu img {
+    width: 560px;
+    height: 650px;
+  }
+  
+  .formu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  }
