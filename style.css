@@ -1,215 +1,302 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  html {
-    font-size: 62.5;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5;
+}
+
+/* INDEX */
+
+section img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.gal video {
+  width: 350px;
+  height: 350px;
+}
+
+.purple h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+div p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+nav ul li {
+  font-size: 1.8rem;
+  margin: 7px 6px 7px 6px;
+  border: black solid 2px;
+  background-color: #f2dfff;
+  display: inline-block;
+  font-style: oblique;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+header {
+  background: rgb(183, 168, 235);
+  background: linear-gradient(
+    90deg,
+    rgba(183, 168, 235, 1) 17%,
+    rgba(182, 104, 205, 1) 41%,
+    rgba(127, 9, 190, 1) 74%
+  );
+}
+
+body {
+  background: rgb(183, 168, 235);
+  background: linear-gradient(
+    90deg,
+    rgba(183, 168, 235, 1) 17%,
+    rgba(182, 104, 205, 1) 41%,
+    rgba(127, 9, 190, 1) 74%
+  );
+}
+
+footer {
+  background: rgb(183, 168, 235);
+  background: linear-gradient(
+    90deg,
+    rgba(183, 168, 235, 1) 17%,
+    rgba(182, 104, 205, 1) 41%,
+    rgba(127, 9, 190, 1) 74%
+  );
+}
+
+.redescolor2 {
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: left;
+}
+
+.redescolor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.gal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.mapa {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.tps h1 {
+  font-style: oblique;
+  font-size: 2rem;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nosotros {
+  margin-top: 120px;
+  margin-left: 25px;
+}
+
+/* GALERÍA */
+
+.container__gal img {
+  width: 440px;
+  height: 530px;
+}
+
+.container__gal {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 6px;
+  justify-items: center;
+}
+
+/* PRESUPUESTOS */
+
+.formu img {
+  width: 610px;
+  height: 700px;
+}
+
+/* SERVICIOS */
+
+.tit h1 {
+  color: rgb(109, 6, 226);
+  text-align: center;
+  font-size: 5rem;
+  text-decoration: underline;
+}
+
+ul li h2 {
+  text-decoration-line: underline;
+}
+
+/* VENTA DE PRODUCTOS */
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.table {
+  width: 100%;
+  border: 3px solid black;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+}
+
+.table caption {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 8px 0px;
+  text-align: center;
+  background-color: white;
+}
+
+.table tr {
+  background-color: whitesmoke;
+  border: 2px solid black;
+}
+
+.table th,
+.table td {
+  font-size: 18px;
+  padding: 8px;
+  text-align: center;
+}
+
+.table thead {
+  text-transform: uppercase;
+  background-color: black;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.table tbody td:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 576px) {
   /* INDEX */
-  
-  section img {
-    width: 200px;
-    height: 200px;
+
+  .purple img {
+    display: none;
   }
-  
-  .gal video {
-    width: 350px;
-    height: 350px;
-  }
-  
-  h1 {
-    color: whitesmoke;
-    text-align: center;
-    font-size: 5rem;
-  }
-  
-  div p {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 1.5rem;
-  }
-  
-    nav ul li {
-    font-size: 1.8rem;
-    margin: 7px 6px 7px 6px;
-    border: #a095ad solid 2px;
-    background-color: #8d04e9;
-    display: inline-block;
-    font-style: oblique;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: purple;
-  }
-  header {
-    background-color: #671b94;
-    background-image: linear-gradient();
-  }
-  
-  body {
-    background-color: #bf84e0;
-  }
-  
-  footer {
-    background-color: #671b94;
-  }
-  
-  .redescolor2 {
-    font-size: 2.2rem;
-    text-decoration: none;
-    color: black;
+
+  nav ul {
     display: flex;
-    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .redescolor a {
-    text-decoration: none;
-    color: purple;
-    font-size: 2.2rem;
-    border: #17052e solid 2px;
-    background-color: #e8ecf5;
-    margin: 7px 6px 15px 6px;
-  }
-  
-  .redescolor {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-  
+
   .gal {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
   }
-  
+
   .mapa {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
+    flex-direction: column;
+    align-items: center;
   }
 
-  
   /* GALERÍA */
-  
-  .container__gal img{
-    width: 440px;
-    height: 530px;
-  }
-  
-  .container__gal{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(3,1fr);
-    gap: 6px;
-    justify-items: center;
-  }
-  
-  
-  /* PRESUPUESTOS */
-  
-  .formu img{
-    width: 610px;
-    height: 700px;
-  }
-  
-  /* SERVICIOS */
-  
-  .tit h1{
-    color: rgb(109, 6, 226);
-    text-align: center;
-    font-size: 5rem;
-    text-decoration: underline;
-  }
-  
-  ul li h2{
-    text-decoration-line: underline;
-  }
-  
-  /* VENTA DE PRODUCTOS */
-  
-  .produc{
-    font-family: 'Questrial', sans-serif;
-    text-decoration: underline;
-  }
-  
-  table td{
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 400;
-  }
-  
-  table{
-    border-collapse: collapse;
-        border: 3px solid black;
-        letter-spacing: 1px;
-        font-size: 2.5rem;
-  }
-  
-  caption{
-    padding: 10px;
-  }
-  
-  td, th {
-    border: 2px solid black;
-    padding: 10px 15px 25px 30px;
+
+  .container__gal {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
   }
 
-  .nuevo__color {
-    color: black;
+  /* SERVICIOS */
+
+  .tit h1 {
+    font-size: 2.2rem;
   }
-  
-  @media only screen and (max-width: 576px){
-  
-    /* INDEX */
-  
-    nav ul {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .gal {
-      flex-direction: column;
-      align-items: center;
-      gap: 15px;
-    }
-  
-    .mapa {
-      flex-direction: column;
-      align-items: center; 
-    }
-  
-    /* GALERÍA */
-    
-    .container__gal {
-      grid-template-columns: repeat(1,1fr);
-      grid-template-rows: repeat(12,1fr);
-    }
-  
-    /* SERVICIOS */
-  
-    .tit h1 {
-      font-size: 2.7rem;
-    }
-  
-    main ul {
-      display: flex;
-      flex-direction: column;
-    }
-  
+
+  main ul {
+    display: flex;
+    flex-direction: column;
+  }
+
   /* PRESUPUESTOS */
-  
+
   .formu img {
-    width: 560px;
-    height: 650px;
-  }
-  
-  .formu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    width: 500px;
+    height: 500px;
+    margin-left: 35px;
   }
-  
+
+  /* VENTA DE PRODUCTOS */
+
+  .table {
+    border: 0px;
   }
+
+  .table caption {
+    font-size: 22px;
+  }
+
+  .table thead {
+    display: none;
+  }
+
+  .table tr {
+    margin-bottom: 8px;
+    border-bottom: 4px solid wheat;
+    display: block;
+  }
+
+  .table th,
+  table td {
+    font-size: 12px;
+  }
+
+  .table td {
+    display: block;
+    border-bottom: 1px solid wheat;
+    text-align: right;
+  }
+
+  .table td:last-child {
+    border-bottom: 0px;
+  }
+
+  .table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+  }
+}
