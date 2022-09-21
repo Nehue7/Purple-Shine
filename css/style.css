@@ -1,0 +1,276 @@
+@charset "UTF-8";
+nav ul li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin: 10px 15px 10px 15px;
+  border: black solid 2px;
+  background-color: #f2dfff;
+  display: inline-block;
+  font-style: oblique;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+header {
+  background: rgb(183, 168, 235);
+  background: linear-gradient(90deg, rgb(183, 168, 235) 17%, rgb(182, 104, 205) 41%, rgb(127, 9, 190) 74%);
+}
+
+body {
+  background: rgb(183, 168, 235);
+  background: linear-gradient(90deg, rgb(183, 168, 235) 17%, rgb(182, 104, 205) 41%, rgb(127, 9, 190) 74%);
+}
+
+footer {
+  background: rgb(183, 168, 235);
+  background: linear-gradient(90deg, rgb(183, 168, 235) 17%, rgb(182, 104, 205) 41%, rgb(127, 9, 190) 74%);
+}
+
+.redescolor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5;
+}
+
+/* INDEX====================================================================== */
+section img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.purple h1 {
+  font-family: "Bebas Neue", cursive;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.nosotros {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 120px;
+  margin-left: 25px;
+}
+
+.gal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.gal video {
+  width: 350px;
+  height: 350px;
+}
+
+.tps h1 {
+  font-family: "Bebas Neue", cursive;
+  font-style: oblique;
+  font-size: 2rem;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mapa {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.redescolor2 {
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: left;
+}
+
+/* GALERÍA====================================================================== */
+.container__gal {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 6px;
+  justify-items: center;
+}
+.container__gal img {
+  width: 440px;
+  height: 530px;
+}
+
+/* PRESUPUESTOS====================================================================== */
+.formu img {
+  width: 610px;
+  height: 700px;
+}
+
+/* SERVICIOS====================================================================== */
+.tit h1 {
+  font-family: "Bebas Neue", cursive;
+  color: rgb(109, 6, 226);
+  text-align: center;
+  font-size: 5rem;
+  text-decoration: underline;
+}
+
+ul li h2 {
+  font-family: "Bebas Neue", cursive;
+  text-decoration-line: underline;
+}
+ul li h2 p {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* VENTA DE PRODUCTOS====================================================================== */
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.table {
+  width: 100%;
+  border: 3px solid black;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+}
+.table caption {
+  font-family: "Bebas Neue", cursive;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 8px 0px;
+  text-align: center;
+  background-color: white;
+}
+.table tr {
+  background-color: whitesmoke;
+  border: 2px solid black;
+}
+.table th, .table td {
+  font-size: 18px;
+  padding: 8px;
+  text-align: center;
+}
+.table thead {
+  text-transform: uppercase;
+  background-color: black;
+}
+.table thead th {
+  font-family: "Bebas Neue", cursive;
+}
+.table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.table tbody td:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.table tbody tr td {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 576px) {
+  /* INDEX====================================================================== */
+  .purple img {
+    display: none;
+  }
+  .purple h1 {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .gal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .mapa {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* GALERÍA====================================================================== */
+  .container__gal {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+  }
+  /* SERVICIOS====================================================================== */
+  .tit h1 {
+    font-size: 2.2rem;
+  }
+  main ul {
+    display: flex;
+    flex-direction: column;
+  }
+  /* PRESUPUESTOS====================================================================== */
+  .formu img {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 500px;
+    margin-left: 35px;
+  }
+  /* VENTA DE PRODUCTOS====================================================================== */
+  .table {
+    border: 0px;
+  }
+  .table caption {
+    font-size: 22px;
+  }
+  .table thead {
+    display: none;
+  }
+  .table tr {
+    margin-bottom: 8px;
+    border-bottom: 4px solid wheat;
+    display: block;
+  }
+  .table th, .table td {
+    font-size: 12px;
+  }
+  .table td {
+    display: block;
+    border-bottom: 1px solid wheat;
+    text-align: right;
+  }
+  .table td:last-child {
+    border-bottom: 0px;
+  }
+  .table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
