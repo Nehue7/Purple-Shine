@@ -22,7 +22,7 @@
 
   .purple h1 {
     font-family: 'Bebas Neue', cursive;
-    color: whitesmoke;
+    color: $color-titulo-servicios;
     text-align: center;
     font-size: 5rem;
     display: flex;
@@ -138,6 +138,7 @@
         margin: 8px 0px;
         text-align: center;
         background-color: white;
+        color: $color-titulo-servicios;
       }
 
       tr {
