@@ -3,15 +3,16 @@ nav ul li {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 1.8rem;
-  margin: 10px 15px 10px 15px;
+  margin: 20px 15px 20px 15px;
+  border-radius: 20px;
   border: black solid 2px;
-  background-color: #f2dfff;
+  background-color: white;
   display: inline-block;
   font-style: oblique;
 }
 nav ul li a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: black !important;
 }
 
 header {
