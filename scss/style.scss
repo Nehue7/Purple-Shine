@@ -1,4 +1,7 @@
 @import "./base/variables.scss";
+@import "./base/mixin";
+@import "./base/extend";
+@import "./base/maps";
 @import "./componentes/global";
 
 
@@ -38,31 +41,21 @@
     margin-left: 25px;
   }
 
-  .gal {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-    video {
-        width: 350px;
-        height: 350px;
-      }
+  video {
+    width: 350px;
+    height: 350px;
   }
 
   .tps h1 {
     font-family: 'Bebas Neue', cursive;
-    font-style: oblique;
-    font-size: 2rem;
+    font-style: map-get($titulo-trabajos , txt-estilo);
+    font-size: map-get($titulo-trabajos , txt-tamaño);
     color: $color-negro;
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
-
-  .mapa {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   .redescolor2 {

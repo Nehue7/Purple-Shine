@@ -2,11 +2,11 @@
   nav ul li {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: map-get($nav , txt-nav);
     margin: 20px 15px 20px 15px;
     border-radius: 20px;
     border: $color-negro solid 2px;
-    background-color: white;
+    background-color: map-get($nav , bg-fondo-nav);
     display: inline-block;
     font-style: oblique;
 
@@ -16,36 +16,6 @@
     }
   }
 
-  header {
-    background: $color-principal;
-    background: linear-gradient(
-      90deg,
-      rgba(183, 168, 235, 1) 17%,
-      rgba(182, 104, 205, 1) 41%,
-      rgba(127, 9, 190, 1) 74%
-    );
-  }
-  
-  body {
-    background: $color-principal;
-    background: linear-gradient(
-      90deg,
-      rgba(183, 168, 235, 1) 17%,
-      rgba(182, 104, 205, 1) 41%,
-      rgba(127, 9, 190, 1) 74%
-    );
-  }
-  
-  footer {
-    background: $color-principal;
-    background: linear-gradient(
-      90deg,
-      rgba(183, 168, 235, 1) 17%,
-      rgba(182, 104, 205, 1) 41%,
-      rgba(127, 9, 190, 1) 74%
-    );
-  }
-  
   .redescolor {
     display: flex;
     flex-direction: row;

@@ -1,0 +1,15 @@
+%flexbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.gal {
+    justify-content: space-around;
+    @extend %flexbox;
+}
+
+.mapa {
+    margin-left: 25px;
+    justify-content: left;
+    @extend %flexbox;
+}

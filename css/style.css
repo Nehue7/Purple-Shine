@@ -1,4 +1,33 @@
 @charset "UTF-8";
+header {
+  background: rgb(183, 168, 235);
+  background: linear-gradient(90deg, rgb(183, 168, 235) 17%, rgb(182, 104, 205) 41%, rgb(127, 9, 190) 74%);
+}
+
+body {
+  background: rgb(183, 168, 235);
+  background: linear-gradient(90deg, rgb(183, 168, 235) 17%, rgb(182, 104, 205) 41%, rgb(127, 9, 190) 74%);
+}
+
+footer {
+  background: rgb(183, 168, 235);
+  background: linear-gradient(90deg, rgb(183, 168, 235) 17%, rgb(182, 104, 205) 41%, rgb(127, 9, 190) 74%);
+}
+
+.mapa, .gal {
+  display: flex;
+  flex-direction: row;
+}
+
+.gal {
+  justify-content: space-around;
+}
+
+.mapa {
+  margin-left: 25px;
+  justify-content: left;
+}
+
 nav ul li {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -13,21 +42,6 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: rgb(109, 6, 226) !important;
-}
-
-header {
-  background: rgb(183, 168, 235);
-  background: linear-gradient(90deg, rgb(183, 168, 235) 17%, rgb(182, 104, 205) 41%, rgb(127, 9, 190) 74%);
-}
-
-body {
-  background: rgb(183, 168, 235);
-  background: linear-gradient(90deg, rgb(183, 168, 235) 17%, rgb(182, 104, 205) 41%, rgb(127, 9, 190) 74%);
-}
-
-footer {
-  background: rgb(183, 168, 235);
-  background: linear-gradient(90deg, rgb(183, 168, 235) 17%, rgb(182, 104, 205) 41%, rgb(127, 9, 190) 74%);
 }
 
 .redescolor {
@@ -71,12 +85,7 @@ section img {
   margin-left: 25px;
 }
 
-.gal {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.gal video {
+video {
   width: 350px;
   height: 350px;
 }
@@ -89,12 +98,8 @@ section img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.mapa {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .redescolor2 {

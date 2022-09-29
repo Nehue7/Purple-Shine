@@ -1,0 +1,21 @@
+@mixin bodyColor {
+    background: $color-principal;
+    background: linear-gradient(
+      90deg,
+      rgba(183, 168, 235, 1) 17%,
+      rgba(182, 104, 205, 1) 41%,
+      rgba(127, 9, 190, 1) 74%
+    );
+}
+
+header {
+    @include bodyColor();
+}
+
+body {
+    @include bodyColor();
+}
+
+footer {
+    @include bodyColor();
+}
