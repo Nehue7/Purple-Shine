@@ -214,6 +214,7 @@ ul li h2 p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin: 20px 15px 20px 15px;
   }
   .gal {
     display: flex;
@@ -222,11 +223,8 @@ ul li h2 p {
     gap: 15px;
   }
   .mapa {
-    display: none;
-  }
-
-  .nosotros {
-    margin-top: 15px;
+    flex-direction: column;
+    align-items: center;
   }
   /* GALERÍA====================================================================== */
   .container__gal {
@@ -240,7 +238,6 @@ ul li h2 p {
   main ul {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
   }
   /* PRESUPUESTOS====================================================================== */
   .formu img {
