@@ -222,8 +222,11 @@ ul li h2 p {
     gap: 15px;
   }
   .mapa {
-    flex-direction: column;
-    align-items: center;
+    display: none;
+  }
+
+  .nosotros {
+    margin-top: 15px;
   }
   /* GALERÍA====================================================================== */
   .container__gal {
@@ -237,6 +240,7 @@ ul li h2 p {
   main ul {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
   }
   /* PRESUPUESTOS====================================================================== */
   .formu img {
