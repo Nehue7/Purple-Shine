@@ -223,8 +223,7 @@ ul li h2 p {
     gap: 15px;
   }
   .mapa {
-    flex-direction: column;
-    align-items: center;
+    display: none;
   }
   /* GALERÍA====================================================================== */
   .container__gal {
