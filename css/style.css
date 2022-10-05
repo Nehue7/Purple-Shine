@@ -26,6 +26,7 @@ footer {
 .mapa {
   margin-left: 25px;
   justify-content: left;
+  align-items: center;
 }
 
 nav ul li {
@@ -81,7 +82,7 @@ section img {
 .nosotros {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
-  margin-top: 120px;
+  margin-top: 40px;
   margin-left: 25px;
 }
 
@@ -98,8 +99,7 @@ video {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  align-items: center;
 }
 
 .redescolor2 {
