@@ -25,7 +25,7 @@
 
   .purple h1 {
     font-family: 'Bebas Neue', cursive;
-    color: $color-titulo-servicios;
+    color: $color-negro;
     text-align: center;
     font-size: 5rem;
     display: flex;
@@ -137,7 +137,7 @@
 
 .tit h1 {
   font-family: 'Bebas Neue', cursive;
-    color: $color-titulo-servicios;
+    color: $color-negro;
     text-align: center;
     font-size: 5rem;
     text-decoration: underline;
@@ -229,10 +229,18 @@
     }
   
     nav ul {
-      display: flex;
-      flex-direction: column;
+      display: block !important;
       align-items: flex-start;
       margin: 20px 15px 20px 15px;
+    }
+
+    nav li {
+      padding: 0 5px !important;
+    }
+
+    .button_menu {
+      display: flex;
+      flex-direction: row;
     }
   
     .gal {

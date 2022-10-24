@@ -53,6 +53,10 @@ nav ul li a {
   padding: 20px;
 }
 
+nav ul {
+  display: block !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -71,7 +75,7 @@ section img {
 
 .purple h1 {
   font-family: "Bebas Neue", cursive;
-  color: rgb(109, 6, 226);
+  color: black;
   text-align: center;
   font-size: 5rem;
   display: flex;
@@ -176,7 +180,7 @@ input, textarea {
 /* SERVICIOS====================================================================== */
 .tit h1 {
   font-family: "Bebas Neue", cursive;
-  color: rgb(109, 6, 226);
+  color: black;
   text-align: center;
   font-size: 5rem;
   text-decoration: underline;
@@ -255,10 +259,16 @@ ul li h2 p {
     margin-top: 100px;
   }
   nav ul {
-    display: flex;
-    flex-direction: column;
+    display: block !important;
     align-items: flex-start;
     margin: 20px 15px 20px 15px;
+  }
+  nav li {
+    padding: 0 5px !important;
+  }
+  .button_menu {
+    display: flex;
+    flex-direction: row;
   }
   .gal {
     display: flex;
